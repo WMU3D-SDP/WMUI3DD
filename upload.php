@@ -1,7 +1,7 @@
 <?php
-
-shell_exec('git add --all');
-shell_exec('git commit -am "add  tourdata.txt"');
-shell_exec('git push -u origin master');
+                              
+echo shell_exec('git add --all');
+echo shell_exec('git commit -m "update tourdata"');
+echo shell_exec('git push origin master');
 
 ?>
