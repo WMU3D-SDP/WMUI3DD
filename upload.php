@@ -1,4 +1,4 @@
-THANK YOU FOR THE SUBMITTION!
+THANK YOU FOR THE SUBMISSION!
 <?php
 
 echo shell_exec('sudo -u pi chmod a+w .git/objects');
