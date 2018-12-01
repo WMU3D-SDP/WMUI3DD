@@ -1,7 +1,7 @@
 THANK YOU FOR THE SUBMISSION!
 <?php
 
-echo shell_exec('sudo -u pi chmod a+w .git/objects');
+echo shell_exec('sudo -u root chmod a+w .git/objects');
 
 $date = new DateTime();
 rename("tourdata.txt" , "tourdata" . $date->format('Y_m_d_H:i') . ".txt");
